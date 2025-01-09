@@ -1,0 +1,28 @@
+My commentary will be placed in brackets [] below... 
+
+[below is an example of some elements I almost always include in my .cursorrules file for each project I'm building] 
+
+Application definition: [include a brief one sentence reminder of the app we're trying to build, covering the main functionality] 
+
+# Important rules YOU HAVE TO FOLLOW:
+- Always add debug logs and comments int he code for easier debugging and readability. 
+- Every time you choose to apply rule(s), excplitily state the rule(s) in the output. You can abbreivate the rule description to a single word or phrase.. 
+- ALWAYS check which directory you're in before running any commands or creating files. 
+
+# Project structure: [I recomeend always inclduing the basic structure of the app once it's fleshed out a bit, so the model can remind itself what's going on for larger projects - example below. To get this, all you need to do is type "tree -L 2"] 
+.
+├── App_PRD.md
+├── backend
+│   └── app.py
+├── frontend
+│   ├── README.md
+│   ├── node_modules
+│   ├── package-lock.json
+│   ├── public
+│   ├── package.json
+│   └── src
+├── requirements.txt
+└── src
+    └── app.py
+
+
