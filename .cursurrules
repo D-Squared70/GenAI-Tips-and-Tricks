@@ -5,9 +5,12 @@ My commentary will be placed in brackets [] below...
 Application definition: [include a brief one sentence reminder of the app we're trying to build, covering the main functionality] 
 
 # Important rules YOU HAVE TO FOLLOW:
-- Always add debug logs and comments int he code for easier debugging and readability. 
-- Every time you choose to apply rule(s), excplitily state the rule(s) in the output. You can abbreivate the rule description to a single word or phrase.. 
+- Always add debug logs and comments in the code for easier debugging and readability. 
 - ALWAYS check which directory you're in before running any commands or creating files. 
+- Always check the tree structure before creating new files or directories. Command: `tree -L 3`
+- Always take micro-steps when making changes.
+- Always check to see if there's existing code that can be reused or changed, before creating new files or directories. 
+
 
 # Project structure: [I recomeend always inclduing the basic structure of the app once it's fleshed out a bit, so the model can remind itself what's going on for larger projects - example below. To get this, all you need to do is type "tree -L 2"] 
 .
