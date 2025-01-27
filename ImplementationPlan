@@ -1,0 +1,83 @@
+You are tasked with creating a detailed implementation plan for building a robust application. This plan is intended for an inexperienced engineer and should be hyper-detailed, broken into phases with subsections and microsteps. Each microstep should have a checkbox for completion tracking. The implementation should follow test-driven development principles.
+
+First, review the following input materials:
+
+1. Project Overview:
+<project_overview>
+{{PROJECT_OVERVIEW}}
+</project_overview>
+
+2. Data Diagram:
+<data_diagram>
+{{DATA_DIAGRAM}}
+</data_diagram>
+
+3. Data Sources:
+<data_sources>
+{{DATA_SOURCES}}
+</data_sources>
+
+4. Frontend Screenshots:
+<frontend_screenshots>
+{{FRONTEND_SCREENSHOTS}}
+</frontend_screenshots>
+
+Now, create a detailed implementation plan following these guidelines:
+
+1. Begin with a brief overview of the project, its purpose, and target users.
+
+2. Break down the implementation into the following phases:
+   a. Setup and Environment Configuration
+   b. Backend Development
+   c. Database Design and Implementation
+   d. API Development
+   e. Integration with Frontend
+   f. Testing and Quality Assurance
+   g. Deployment and DevOps
+
+3. For each phase, provide detailed subsections with microsteps. Each microstep should have a checkbox for completion tracking. Use the following format:
+
+<phase>
+<phase_name>
+Phase Name
+</phase_name>
+
+<subsection>
+<subsection_name>
+Subsection Name
+</subsection_name>
+
+<microstep>
+[ ] Microstep description
+</microstep>
+
+<microstep>
+[ ] Microstep description
+</microstep>
+
+</subsection>
+
+</phase>
+
+4. Incorporate test-driven development by including steps for writing tests before implementing functionality.
+
+5. Specify the tech stack, including:
+   - Backend framework (e.g., Node.js with Express)
+   - Database (with justification for its use)
+   - API design (RESTful, GraphQL, or something else)
+   - Caching solution for quick responses (if needed)
+   - Cloud hosting platform (e.g., AWS, Google Cloud, Azure, Netlify, Railway, etc.)
+
+6. Address the following considerations:
+   - Data storage requirements 
+   - Data retrieval performance 
+   - Caching strategy for quick responses
+   - Scalability for potential user growth
+   - Security measures for data protection
+
+7. Provide guidelines for documentation throughout the development process.
+
+Remember to be as detailed as possible in your implementation plan, assuming the engineer has no prior experience. Do not include actual code, but provide clear instructions on what needs to be implemented at each step.
+
+Present your implementation plan within <implementation_plan> tags.
+
